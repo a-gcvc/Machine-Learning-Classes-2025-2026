@@ -1,0 +1,36 @@
+# ==========================================
+# Jupyter Notebooks (IPython)
+# ==========================================
+# Ignoriše automatski generisane kontrolne tačke (checkpoints)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# Microsoft Word (i ostali Office dokumenti)
+# ==========================================
+# Ignoriše privremene (lock) fajlove koje Word kreira dok je dokument otvoren
+~$*.docx
+~$*.doc
+~$*.xlsx
+
+# ==========================================
+# Python (Keš i kompajlirani fajlovi)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtuelna okruženja (Virtual Environments)
+# ==========================================
+# Ako kreiraš venv unutar foldera projekta, obavezno ga ignoriši
+venv/
+.venv/
+env/
+.env/
+
+# ==========================================
+# Sistemski fajlovi (Mac i Windows)
+# ==========================================
+.DS_Store
+Thumbs.db
